@@ -1,0 +1,38 @@
+body {
+	color: hsl(238, 29%, 16%);
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 12px;
+	background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat;
+	background-size: cover;
+}
+
+h2 {
+	font-size: 14px;
+	font-weight: normal;
+	color: hsl(237, 12%, 33%);
+}
+
+/* check if questions should be in hover or active state */
+
+h2:hover {
+	color: hsl(14, 88%, 65%);
+}
+
+h2:active {
+	font-weight: bold;
+	color: hsl(238, 29%, 16%);
+}
+
+hr {
+	color: hsl(240, 5%, 91%);
+}
+
+p {
+	color: hsl(240, 6%, 50%);
+}
+
+.container {
+	background-color: white;
+	border-radius: 1.5rem;
+	padding: 20px;
+}
