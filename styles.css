@@ -6,6 +6,10 @@ body {
 	background-size: cover;
 }
 
+h1 {
+	font-weight: bold;
+}
+
 h2 {
 	font-size: 14px;
 	font-weight: normal;
@@ -16,10 +20,10 @@ h2 {
 
 h2:hover {
 	color: hsl(14, 88%, 65%);
+	cursor: pointer;
 }
 
 h2:active {
-	font-weight: bold;
 	color: hsl(238, 29%, 16%);
 }
 
@@ -34,5 +38,5 @@ p {
 .container {
 	background-color: white;
 	border-radius: 1.5rem;
-	padding: 20px;
+	padding: 50px;
 }
