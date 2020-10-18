@@ -40,3 +40,7 @@ p {
 	border-radius: 1.5rem;
 	padding: 50px;
 }
+
+.arrow {
+	transform: rotate(180deg);
+}
