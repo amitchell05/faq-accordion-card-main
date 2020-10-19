@@ -4,11 +4,13 @@ body {
 	font-size: 12px;
 	background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat;
 	background-size: cover;
+	height: 100vh;
 }
 
 h1 {
 	font-weight: bold;
 	font-size: 1.75rem;
+	margin-bottom: 25px;
 }
 
 h2 {
@@ -40,8 +42,32 @@ p {
 	background-color: white;
 	border-radius: 1.5rem;
 	padding: 50px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+}
+
+.bg-desktop {
+	background-image: url("images/illustration-woman-online-desktop.svg"), url("images/bg-pattern-desktop.svg");
+	background-repeat: no-repeat, no-repeat;
+	background-size: 40% auto, 75% auto;
+	background-position: calc(100% - 750px) calc(100% - 30px), calc(100% - 750px) calc(100% + 150px);
+}
+
+#box {
+	position: relative;
+	left: 115px;
+	top: 325px;
+	z-index: 100;
 }
 
 .arrow {
-	transform: rotate(180deg);
+	float: right;
+}
+
+.arrow:after {
+	content: "";
+	clear: both;
 }
