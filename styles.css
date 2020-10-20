@@ -5,6 +5,7 @@ body {
 	background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat;
 	background-size: cover;
 	height: 100vh;
+	display: grid;
 }
 
 h1 {
@@ -18,8 +19,6 @@ h2 {
 	font-weight: normal;
 	color: hsl(237, 12%, 33%);
 }
-
-/* check if questions should be in hover or active state */
 
 h2:hover {
 	color: hsl(14, 88%, 65%);
@@ -41,19 +40,16 @@ p {
 .container {
 	background-color: white;
 	border-radius: 1.5rem;
-	padding: 50px;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	/* bring your own prefixes */
-	transform: translate(-50%, -50%);
+	border: 3px solid red;
+	margin: auto;
+	width: 90%;
 }
 
 .bg-desktop {
 	background-image: url("images/illustration-woman-online-desktop.svg"), url("images/bg-pattern-desktop.svg");
 	background-repeat: no-repeat, no-repeat;
 	background-size: 40% auto, 75% auto;
-	background-position: calc(100% - 750px) calc(100% - 30px), calc(100% - 750px) calc(100% + 150px);
+	/* background-position: calc(100% - 750px) calc(100% - 30px), calc(100% - 750px) calc(100% + 150px); */
 }
 
 #box {
@@ -70,4 +66,13 @@ p {
 .arrow:after {
 	content: "";
 	clear: both;
+}
+
+@media (max-width: 991px) {
+	h1 {
+		text-align: center;
+	}
+	.container {
+		padding: 25px;
+	}
 }
