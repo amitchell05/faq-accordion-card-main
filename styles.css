@@ -10,7 +10,7 @@ body {
 
 h1 {
 	font-weight: bold;
-	font-size: 1.75rem;
+	font-size: 2rem;
 	margin-bottom: 25px;
 }
 
@@ -38,26 +38,24 @@ p {
 }
 
 .container {
-	background-color: white;
 	border-radius: 1.5rem;
-	border: 3px solid red;
 	margin: auto;
 	width: 90%;
 }
 
-.bg-desktop {
+/* .bg-desktop {
 	background-image: url("images/illustration-woman-online-desktop.svg"), url("images/bg-pattern-desktop.svg");
 	background-repeat: no-repeat, no-repeat;
 	background-size: 40% auto, 75% auto;
-	/* background-position: calc(100% - 750px) calc(100% - 30px), calc(100% - 750px) calc(100% + 150px); */
-}
+	background-position: calc(100% - 750px) calc(100% - 30px), calc(100% - 750px) calc(100% + 150px);
+} */
 
-#box {
+/* bg-pattern-desktop #box {
 	position: relative;
 	left: 115px;
 	top: 325px;
 	z-index: 100;
-}
+} */
 
 .arrow {
 	float: right;
@@ -74,5 +72,19 @@ p {
 	}
 	.container {
 		padding: 25px;
+	}
+	.woman-mobile-container {
+		margin: auto;
+		display: block;
+		bottom: 200px;
+		right: 5px;
+	}
+	.bg-pattern-mobile {
+		background-image: url("images/bg-pattern-mobile.svg");
+		background-repeat: no-repeat;
+		background-position: top center;
+	}
+	.empty-col {
+		border: 3px solid green;
 	}
 }
