@@ -12,6 +12,7 @@ h1 {
 	font-weight: bold;
 	font-size: 2rem;
 	margin-bottom: 25px;
+	text-align: center;
 }
 
 h2 {
@@ -43,19 +44,9 @@ p {
 	width: 90%;
 }
 
-/* .bg-desktop {
-	background-image: url("images/illustration-woman-online-desktop.svg"), url("images/bg-pattern-desktop.svg");
-	background-repeat: no-repeat, no-repeat;
-	background-size: 40% auto, 75% auto;
-	background-position: calc(100% - 750px) calc(100% - 30px), calc(100% - 750px) calc(100% + 150px);
-} */
-
-/* bg-pattern-desktop #box {
-	position: relative;
-	left: 115px;
-	top: 325px;
-	z-index: 100;
-} */
+.faq-content {
+	padding: 1.75rem;
+}
 
 .arrow {
 	float: right;
@@ -66,25 +57,13 @@ p {
 	clear: both;
 }
 
-@media (max-width: 991px) {
-	h1 {
-		text-align: center;
-	}
-	.container {
-		padding: 25px;
-	}
-	.woman-mobile-container {
-		margin: auto;
-		display: block;
-		bottom: 200px;
-		right: 5px;
-	}
-	.bg-pattern-mobile {
-		background-image: url("images/bg-pattern-mobile.svg");
-		background-repeat: no-repeat;
-		background-position: top center;
-	}
-	.empty-col {
-		border: 3px solid green;
-	}
+.bg-pattern-mobile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.woman-illustration-mobile {
+	margin-top: -80%;
+	margin-left: 2%;
 }

@@ -18,13 +18,13 @@
   </style>
 </head>
 <body>
-  <div class="woman-mobile-container">
-    <img src="images/illustration-woman-online-mobile.svg" alt="">
-  </div>
-  <div class="container bg-white bg-pattern-mobile">
+  <div class="container bg-white">
     <div class="row">
-      <div class="col-lg-6 empty-col"></div>
       <div class="col-lg-6">
+        <img class="bg-pattern-mobile" src="images/bg-pattern-mobile.svg" alt="">
+        <img class="woman-illustration-mobile" src="images/illustration-woman-online-mobile.svg" alt="" >
+      </div>
+      <div class="col-lg-6 faq-content">
         <h1>FAQ</h1>
 
         <h2 id="headingOne" onclick="toggleContent(headingOne, contentOne, arrowOne)">How many team members can I invite? <img class="arrow" id="arrowOne" src="images/icon-arrow-down.svg" alt=""></h2>
@@ -52,11 +52,13 @@
         <p id="contentFive">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
 
         <hr>
+
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Angela Mitchell</a>.
+        </div>
+        
       </div>
-    </div>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Angela Mitchell</a>.
     </div>
   </div>
   <script src="script.js"></script>
