@@ -1,69 +1,100 @@
 body {
 	color: hsl(238, 29%, 16%);
-	font-family: 'Kumbh Sans', sans-serif;
-	font-size: 12px;
-	background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat;
+	background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
-	display: grid;
+	font-size: 12px;
+	font-family: 'Kumbh Sans', sans-serif;
 }
 
 h1 {
-	font-weight: bold;
-	font-size: 2rem;
-	margin-bottom: 25px;
 	text-align: center;
-}
-
-h2 {
-	font-size: 14px;
-	font-weight: normal;
-	color: hsl(237, 12%, 33%);
-}
-
-h2:hover {
-	color: hsl(14, 88%, 65%);
-	cursor: pointer;
-}
-
-h2:active {
-	color: hsl(238, 29%, 16%);
+	font-size: 2rem;
 }
 
 hr {
-	color: hsl(240, 5%, 91%);
-}
-
-p {
-	color: hsl(240, 6%, 50%);
+	background-color: hsl(240, 5%, 91%);
+	height: 1px;
+	border: none;
 }
 
 .container {
-	border-radius: 1.5rem;
-	margin: auto;
-	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 10px;
 }
 
-.faq-content {
-	padding: 1.75rem;
+.content {
+	background-color: white;
+	border-radius: 1.5em;
+	padding: 2em;
 }
 
-.arrow {
-	float: right;
+.questions {
+	cursor: pointer;
+	color: hsl(237, 12%, 33%);
 }
 
-.arrow:after {
-	content: "";
-	clear: both;
+.questions:hover {
+	color: hsl(14, 88%, 65%);
 }
 
-.bg-pattern-mobile {
+.questions:active {
+	color: hsl(238, 29%, 16%);
+}
+
+.answers {
+	color: hsl(240, 6%, 50%);
+}
+
+.questions {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 20px 0 0;
 }
 
-.woman-illustration-mobile {
-	margin-top: -80%;
-	margin-left: 2%;
+input {
+	display: none;
+}
+
+.hide-1 {
+	display: none;
+}
+
+#item-1:checked + .hide-1 {
+	display: block;
+}
+
+.hide-2 {
+	display: none;
+}
+
+#item-2:checked + .hide-2 {
+	display: block;
+}
+
+.hide-3 {
+	display: none;
+}
+
+#item-3:checked + .hide-3 {
+	display: block;
+}
+
+.hide-4 {
+	display: none;
+}
+
+#item-4:checked + .hide-4 {
+	display: block;
+}
+
+.hide-5 {
+	display: none;
+}
+
+#item-5:checked + .hide-5 {
+	display: block;
 }
